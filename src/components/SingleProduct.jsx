@@ -39,7 +39,7 @@ const SingleProduct = () => {
 				>
 					Add To Cart
 				</button>
-				<Link to="/" className="p-2">
+				<Link to="/Products-App" className="p-2">
 					Back
 				</Link>
 			</div>

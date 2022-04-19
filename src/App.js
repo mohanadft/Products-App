@@ -13,7 +13,7 @@ const App = () => {
 		<BrowserRouter>
 			<div className="container w-5/6 mx-auto p-5">
 				<Routes>
-					<Route path="/" element={<FetchProducts />} />
+					<Route path="/Products-App" element={<FetchProducts />} />
 					<Route path="/:name" element={<SingleProduct />} />
 					<Route path="*" element={<Error />} />
 				</Routes>
